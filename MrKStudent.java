@@ -11,7 +11,7 @@ public class MrKStudent {
    
    }
       
-   public void defaultStudent() {
+   public void MrKStudent() {
       name = "Yousif";
       period = 1;
       GPA = 3.0;
@@ -37,9 +37,10 @@ public class MrKStudent {
       GPA -= otherDifferenceAfter;
       System.out.println("Subtracted " + otherDifferenceAfter + " from GPA. New GPA is " + GPA);
    }
-   public void completesYear() {
+   public int completesYear() {
       grade += 1;
       System.out.println("Added 1 to Grade. New Grade is " + grade);
+      return grade;
    }
    public void seatingChange() {
       // seat gets randomized

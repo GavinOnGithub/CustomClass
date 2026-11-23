@@ -10,7 +10,14 @@ public class MrKStudent {
    public static void main(String[] args) {
    
    }
-      
+   
+   public void defaultConstructor(String name, int period, int grade, int seatNum) {
+      this.name = name;
+      this.period = period;
+      this.grade = grade;
+      this.seatNum = seatNum;
+   }
+       
    public void MrKStudent() {
       name = "Yousif";
       period = 1;
